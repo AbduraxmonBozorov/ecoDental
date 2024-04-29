@@ -285,6 +285,12 @@ main {
   cursor: pointer;
 }
 
+.mouthWash button,
+.toothBrush button:hover{
+  opacity: 0.8;
+}
+
+
 .toothBrush button {
   background-color: #405741;
 }
