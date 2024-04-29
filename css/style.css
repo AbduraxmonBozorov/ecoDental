@@ -285,8 +285,7 @@ main {
   cursor: pointer;
 }
 
-.mouthWash button,
-.toothBrush button:hover{
+:where(.toothBrush, .mouthWash) button:hover{
   opacity: 0.8;
 }
 
