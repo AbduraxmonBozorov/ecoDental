@@ -758,6 +758,7 @@ main {
   border-radius: 8px;
   background-color: #405741;
   opacity: 0.5;
+  cursor: pointer;
 }
 
 
