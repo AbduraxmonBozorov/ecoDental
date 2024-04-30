@@ -78,9 +78,6 @@ nav ol {
   gap: 24px;
 }
 
-
-
-
 nav ol li {
   display: flex;
   flex-direction: row;
@@ -285,10 +282,9 @@ main {
   cursor: pointer;
 }
 
-:where(.toothBrush, .mouthWash) button:hover{
+:where(.toothBrush, .mouthWash) button:hover {
   opacity: 0.8;
 }
-
 
 .toothBrush button {
   background-color: #405741;
@@ -374,7 +370,7 @@ main {
   color: #172b4d;
 }
 
-.trendingProducts .addToCarts{
+.trendingProducts .addToCarts {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -386,6 +382,11 @@ main {
   border: 1px solid #dcdfe4;
   border-radius: 16px;
   height: 424px;
+}
+
+.addToCart > img {
+  width: 247px;
+  height: 220px;
 }
 
 .trendingProducts .addToCart__text {
@@ -401,7 +402,7 @@ main {
   color: #121216;
 }
 
-.tt{
+.tt {
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
@@ -417,19 +418,18 @@ main {
   text-align: left;
   color: black;
   margin-right: 10px;
-
 }
 
 .addToCart__text p:last-child small {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
   text-align: left;
-  color:#8590A2;
+  color: #8590a2;
 }
 
-.addToCart__text button{
+.addToCart__text button {
   width: 100%;
   border: 1px solid #405741;
   border-radius: 8px;
@@ -440,22 +440,22 @@ main {
   align-items: center;
   background-color: #405741;
   color: white;
+  cursor: pointer;
 }
 
-.addToCart__text button img{
-  margin-right: 8px
+.addToCart__text button img {
+  margin-right: 8px;
 }
 
-
-.checkbox{
-  margin-bottom: 100px;
+.checkbox {
+  margin-bottom: 50px;
 }
 
-.checkbox h1{
+.checkbox h1 {
   margin-bottom: 20px;
 }
 
-.checkbox input{
+.checkbox input {
   appearance: none;
   width: 80px;
   height: 40px;
@@ -466,7 +466,7 @@ main {
   position: relative;
 }
 
-.checkbox input::before{
+.checkbox input::before {
   content: "OFF";
   width: 80px;
   height: 40px;
@@ -482,7 +482,7 @@ main {
   transition: all 0.5s linear;
 }
 
-.checkbox input::after{
+.checkbox input::after {
   content: "ON";
   width: 90px;
   height: 40px;
@@ -499,11 +499,273 @@ main {
   transform: translate(100px) skewX(-30deg);
 }
 
-.checkbox input:checked::before{
+.checkbox input:checked::before {
   transform: translate(-80px) skewX(-30deg);
 }
 
-.checkbox input:checked::after{
+.checkbox input:checked::after {
   width: 110px;
-  transform: translate( -10px) skewX(-30deg);
+  transform: translate(-10px) skewX(-30deg);
 }
+
+/* pureBliss style start */
+
+.pureBliss {
+  margin-bottom: 120px;
+}
+
+.pureBliss .container {
+  background-image: url("../images/Promotioanal\ Banner.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+
+.pureBliss__img {
+  /* border: 1px solid blue; */
+  width: 50%;
+  position: relative;
+}
+
+.pureBliss__img .buttle {
+  /* border: 1px solid red; */
+  position: relative;
+  z-index: 2;
+}
+
+.pureBliss__img .buttle img:nth-child(1) {
+  position: relative;
+  top: 0;
+  left: 196px;
+  width: 147px;
+  height: 348px;
+}
+
+.pureBliss__img .buttle .bgcolor {
+  width: 113px;
+  height: 57px;
+  background-color: #fffefc;
+  position: absolute;
+  top: 159px;
+  left: 212px;
+  border-radius: 5px;
+}
+
+.pureBliss__img .buttle :nth-child(3) {
+  position: absolute;
+  top: 188px;
+  left: 236px;
+  width: 61px;
+  height: 30px;
+  /* border: 1px solid red; */
+}
+
+.pureBliss__img .buttle :nth-child(4) {
+  position: absolute;
+  top: 160px;
+  left: 250px;
+  width: 35px;
+  height: 33px;
+  /* border: 1px solid red; */
+}
+
+.pureBliss .mint {
+  position: absolute;
+  top: 235px;
+  left: 120px;
+  z-index: 3;
+}
+
+.pureBliss .clove {
+  position: absolute;
+  top: 180px;
+  left: 240px;
+  z-index: 1;
+}
+
+.pureBliss__text {
+  /* border: 1px solid blue; */
+  width: 50%;
+}
+
+
+
+.pureBliss__text h1 {
+  font-family: "Poppins";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+  text-align: left;
+  color: black;
+  margin-bottom: 17px;
+}
+
+.pureBliss__text p {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  color: black;
+  margin-bottom: 44px;
+}
+
+.pureBliss__text button {
+  width: 168px;
+  height: 44px;
+  border-radius: 8px;
+  padding: 10px 16px;
+  gap: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #405741;
+  border: 1px solid #405741;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.pureBliss__text button img {
+  transition: all 0.3s linear;
+}
+
+.pureBliss button:hover {
+  transform: scale(1.1);
+}
+
+.pureBliss button:hover img {
+  transform: translateX(30px);
+}
+
+.testimonial {
+  background-color: #e9f8ef;
+  height: 663px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
+  padding: 94px 0;
+}
+
+
+
+.testinomial__heading h2 {
+  font-family: "Poppins";
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 66px;
+  text-align: center;
+  color: #091e42;
+}
+
+.testinomial__heading p {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #172b4d;
+  margin-bottom: 80px;
+}
+
+.testimonial__cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.testimonial__cards_card {
+  width: 384px;
+  /* height: 234px; */
+  background-color: white;
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.testimonial__cards_card p {
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.card__user {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  /* margin-bottom: 24px; */
+  /* border: 1px solid red; */
+}
+
+.card__user .user-img {
+  border-radius: 4px;
+}
+
+.card__user div {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  /* border: solid; */
+}
+
+.card__user div p {
+  margin: 0;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #121216;
+}
+
+.card__user div span {
+  margin: 0;
+  font-family: 'Poppins';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: #A8A9B2;
+}
+
+
+/* testimonial__indicator */
+
+.testimonial__indicator{
+  /* border: 1px solid red; */
+  margin-top: 65px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.testimonial__indicator div{
+  width: 40px;
+  height: 8px;
+  border-radius: 8px;
+  background-color: #405741;
+  opacity: 0.5;
+}
+
+
+.testimonial__indicator div.active{
+
+  opacity: 1;
+}
+
+
+/* end Main */
+
