@@ -340,6 +340,11 @@ main {
   /* border: 1px solid blue; */
 }
 
+
+.arrowBtns img{
+  cursor: pointer;
+}
+
 .arrowBtns img:first-child {
   position: absolute;
   top: 50%;
