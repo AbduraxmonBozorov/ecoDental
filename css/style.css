@@ -915,6 +915,7 @@ footer.footer {
   background-color: #405741;
   border: 1px solid #405741;
   color: white;
+  cursor: pointer;
 }
 
 /* footer__main style end */
